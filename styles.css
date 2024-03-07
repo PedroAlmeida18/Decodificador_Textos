@@ -1,0 +1,104 @@
+:root{
+    --cor-principal:#808080;
+    --cor-secundaria: #EBC36A;
+    --cor-terciara: black ;
+    --cor-quarta:white;
+    --cor-quinta : blanchedalmond;
+    --fonteitexto :'Montserrat', sans-serif;
+    --fonte-texto2: 'Krona One', sans-serif;
+}
+
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.Imagem {
+    width: 150px;
+}
+
+.Imagem2 {
+    width: 100px;
+}
+
+/* Estilo do main */
+main {
+    padding: 20px;
+}
+
+/* Estilo do section */
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Botão {
+    display: flex;
+}
+
+.Botão_enviar, .Botão_receber {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Botão_enviar:hover, .Botão_receber:hover {
+    background-color: #0056b3;
+}
+.copiar{
+    display: flex;
+    margin-right: 15px;
+    background-color: #007bff ;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo do footer */
+.Roda_pé {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+    font-family: var(--fonteitexto);
+    white-space: nowrap;
+}
