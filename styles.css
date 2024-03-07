@@ -77,24 +77,30 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-bottom: 10px;
 }
 
 .Botão_enviar:hover, .Botão_receber:hover {
     background-color: #0056b3;
 }
-.copiar{
-    display: flex;
-    margin-right: 15px;
-    background-color: #007bff ;
-    color: black;
+.copiar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.copiar:hover {
+    background-color: #0056b3;
 }
 
 /* Estilo do footer */
 .Roda_pé {
+    margin-top: 190px;
     text-align: center;
     padding: 20px;
     background-color: #343a40;
